@@ -1,0 +1,20 @@
+package com.datastructures.api;
+
+import java.util.Stack;
+
+public class SpecialQueue {
+	
+	Stack<String> stack1 = new Stack<String>();
+	Stack<String> stack2 = new Stack<String>();
+	
+	
+	public void enQueue(String str) {
+		stack1.add(str);
+		
+	}
+	
+	public String deQueue() {
+		return null;
+	}
+
+}

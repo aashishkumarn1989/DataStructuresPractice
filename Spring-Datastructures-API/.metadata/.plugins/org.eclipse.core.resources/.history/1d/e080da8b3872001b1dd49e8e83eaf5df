@@ -1,0 +1,32 @@
+package com.datastructures.api;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
+public class StringReplacerTest {
+	
+	@Test
+	public void testReplaceWhenAFirstChar() {
+		StringReplacer strReplacer = new StringReplacer();
+		String replacedString = strReplacer.removeCharacterA("ABCD");
+		assertEquals("BCD",replacedString);
+		
+	}
+	
+	@Test
+	public void testReplaceWhenAIsSecondChar() {
+		StringReplacer strReplacer = new StringReplacer();
+		String replacedString = strReplacer.removeCharacterA("BACD");
+		assertEquals("BCD",replacedString);
+		
+	}
+	@Test
+	public void testReplaceWhenAIsFirst2Chars() {
+		StringReplacer strReplacer = new StringReplacer();
+		String replacedString = strReplacer.removeCharacterA("AACD");
+		assertEquals("CD",replacedString);
+		
+	}
+
+}

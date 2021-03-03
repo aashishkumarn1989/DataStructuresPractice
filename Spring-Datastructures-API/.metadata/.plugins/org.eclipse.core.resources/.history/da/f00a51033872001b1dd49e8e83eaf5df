@@ -1,0 +1,10 @@
+package com.datastructures.api;
+
+public class StringReplacer {
+
+	public String removeCharacterA(String string) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

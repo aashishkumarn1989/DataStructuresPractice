@@ -1,0 +1,13 @@
+package com.datastructures.api;
+
+import org.junit.jupiter.api.Test;
+
+public class StringReplacerTest {
+	
+	@Test
+	public void testReplaceWhenAWithin2Chars() {
+		StringReplacer strReplacer = new StringReplacer();
+		
+	}
+
+}

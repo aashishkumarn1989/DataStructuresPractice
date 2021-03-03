@@ -1,0 +1,17 @@
+package com.datastructures.api;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
+public class StringReplacerTest {
+	
+	@Test
+	public void testReplaceWhenAWithin2Chars() {
+		StringReplacer strReplacer = new StringReplacer();
+		String replacedString = strReplacer.removeCharacterA("ABCD");
+		assertEquals("BCD",replacedString);
+		
+	}
+
+}

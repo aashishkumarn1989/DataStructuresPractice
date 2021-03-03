@@ -1,0 +1,15 @@
+package com.datastructures.api;
+
+public class StringReplacer {
+
+	public String removeCharacterA(String str) {
+		String removedStr = "";	
+		for(int i = 0 ; i < str.length() ; i++) {
+		    if(i >= 2 && str.charAt(i) != 'A') {
+		    	removedStr += str.charAt(i);
+		    }
+		}
+		return removedStr;
+	}
+
+}

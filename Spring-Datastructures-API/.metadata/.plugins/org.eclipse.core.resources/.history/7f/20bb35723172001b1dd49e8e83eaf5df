@@ -1,0 +1,14 @@
+package com.datastructures.api;
+
+import org.junit.jupiter.api.Test;
+
+public class StringSwapperTest {
+	
+	@Test
+	public void testSwaplast2CharWith2char(String str) {
+		
+		StringSwapper swapper = new StringSwapper();
+		
+	}
+
+}

@@ -1,0 +1,57 @@
+package com.datastructures.api;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
+public class StringSwapperTest {
+	
+	@Test
+	public void testSwaplast2CharWith2char() {
+		
+		StringSwapper swapper = new StringSwapper();
+		String swappedString = swapper.swapLast2Char("AB");
+		assertEquals(swappedString ,"BA");
+		
+	}
+	
+	@Test
+	public void testSwaplast2CharWhen4Chars() {
+		
+		StringSwapper swapper = new StringSwapper();
+		String swappedString = swapper.swapLast2Char("ABCD");
+		assertEquals(swappedString ,"ABDC");
+		
+	}
+
+	
+	@Test
+	public void testSwaplast2CharWhen10Chars() {
+		
+		StringSwapper swapper = new StringSwapper();
+		String swappedString = swapper.swapLast2Char("ABCDEFGHIJ");
+		assertEquals(swappedString ,"ABCDEFGHJI");
+		
+	}
+	
+	@Test
+	public void testSwaplast2CharWhen1Char() {
+		
+		StringSwapper swapper = new StringSwapper();
+		String swappedString = swapper.swapLast2Char("A");
+		assertEquals(swappedString ,"A");
+		
+	}
+	
+	@Test
+	public void testSwaplast2CharWhen0Char() {
+		
+		StringSwapper swapper = new StringSwapper();
+		String swappedString = swapper.swapLast2Char("");
+		assertEquals(swappedString ,"");
+		
+	}
+	
+	
+	
+}

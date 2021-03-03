@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel" value="2"/>
+	<list key="EGit.KnownHosts">
+		<item value="bitbucket.org"/>
+		<item value="github.com"/>
+		<item value="git.eclipse.org"/>
+		<item value="git-rba.hackerrank.com"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://git-rba.hackerrank.com/git/3f14a9f8-b7a8-4284-87a3-e28e8b29ba3e"/>
+		<item value="https://git-rba.hackerrank.com/git/996a84f3-3b9d-49d8-8ca2-f2f43a1ddf74"/>
+	</list>
+	<section name="GitImportWizard">
+	</section>
+</section>
